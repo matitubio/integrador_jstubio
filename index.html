@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokedex - Integrador JS</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="./assets/charizard_png.png" alt="charizar" />
+      <ul class="nav_link">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Arma tu Equipo</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <div class="cart_icon">
+        <img src="./assets/shop.png" alt="shop" />
+        <button class="shop">SHOP</button>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container_tipos">
+        <ul class="tipos">
+          <li class="tipos-item">
+            <button class="btn btn-item" id="ver-todos">Ver todos</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item steel" id="steel">Steel</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item water" id="water">Water</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item bug" id="bug">Bug</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item dragon" id="dragon">Dragon</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item electric" id="electric">
+              Electric
+            </button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item ghost" id="ghost">Ghost</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item fire" id="fire">Fire</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item fairy" id="fairy">Fairy</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item ice" id="ice">Ice</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item fighting" id="fighting">
+              Fighting
+            </button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item normal" id="normal">Normal</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item grass" id="grass">Grass</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item psychic" id="psychic">Psychic</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item rock" id="rock">Rock</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item dark" id="dark">Dark</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item ground" id="ground">Ground</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item poison" id="poison">Poison</button>
+          </li>
+          <li class="tipos-item">
+            <button class="btn btn-item flying" id="flying">Flying</button>
+          </li>
+        </ul>
+        <div class="buscador">
+          <h2>Busca tu pokemon</h2>
+          <input type="text" id="pokemon-input" placeholder="Charmander" />
+        </div>
+      </div>
+
+      <div class="container_pokemon" id="containerPokemon">
+        <!-- 
+           <div class="card_pokemon"></div>
+          <p class="id_back">#025</p>
+          <div class="img_poke">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+              alt="pikachu"
+            />
+          </div>
+          <div class="info_poke">
+            <div class="name_container">
+              <p class="pokemon-id">#025</p>
+              <h2 class="pokemon-name">Pikachu</h2>
+            </div>
+            <div class="tipos_poke">
+              <p class="electric tipo">ELECTRIC</p>
+              <p class="fighting tipo">FIGHTING</p>
+            </div>
+            <div class="stats-poke">
+              <p class="stat">4m</p>
+              <p class="stat">60kg</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </main>
+    <script src="./assets/arrayPokemon.js"></script>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
